@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your one-stop destination for free online tools. Compress images, convert PDFs, and more!">
+  <meta name="keywords" content="online tools, image tools, PDF tools, free tools, compress images, convert PDF">
+  <meta name="author" content="Your Name">
+  <title>Home - Free Online Tools</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #1e7e34; /* Green background */
+      color: #fff;
+      padding: 20px;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #e0e0e0;
+    }
+
+    /* Tool Cards Section */
+    .tools-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .tool-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .tool-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .tool-card img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 15px;
+    }
+
+    .tool-card h2 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .tool-card p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .tool-card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #1e7e34;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .tool-card a:hover {
+      background: #155724;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #e0e0e0;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .tool-card {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 0.9rem;
+      }
+
+      .tool-card {
+        padding: 15px;
+      }
+
+      .tool-card h2 {
+        font-size: 1.3rem;
+      }
+
+      .tool-card p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Free Online Tools</h1>
+    <p>Your one-stop destination for free online tools. Compress images, convert PDFs, and more!</p>
+  </header>
+
+  <main>
+    <!-- Tools Section -->
+    <section class="tools-section">
+      <!-- Image Compressor Tool -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="Image Compressor">
+        <h2>Image Compressor</h2>
+        <p>Compress and optimize your images for web and mobile.</p>
+        <a href="/image-compressor">Use Tool</a>
+      </div>
+
+      <!-- PDF Converter Tool -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Converter">
+        <h2>PDF Converter</h2>
+        <p>Convert PDFs to other formats and vice versa.</p>
+        <a href="/pdf-converter">Use Tool</a>
+      </div>
+
+      <!-- Image Resizer Tool -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3143/3143460.png" alt="Image Resizer">
+        <h2>Image Resizer</h2>
+        <p>Resize images to your desired dimensions.</p>
+        <a href="/image-resizer">Use Tool</a>
+      </div>
+
+      <!-- PDF Splitter Tool -->
+      <div class="tool-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/337/337958.png" alt="PDF Splitter">
+        <h2>PDF Splitter</h2>
+        <p>Split PDFs into multiple smaller files.</p>
+        <a href="/pdf-splitter">Use Tool</a>
+      </div>
+
+      <!-- Add more tools here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Free Online Tools. All rights reserved.</p>
+  </footer>
+</body>
+</html>
